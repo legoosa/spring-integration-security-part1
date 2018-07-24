@@ -1,0 +1,15 @@
+spring:
+ application:
+  name: file-integration-service
+
+server:
+ port: 8500
+ servlet:
+  contextPath: /fileIntegration
+
+ftp:
+ host: 192.168.0.3
+ username: ftp-user
+ password: ftp-user
+ port: 21
+ directory:
